@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "==0.0.298"
+huggingface-hub = "==0.17.2"
+transformers = "==4.33.2"
+sentence-transformers = "==2.2.2"
+uvicorn = "==0.23.2"
+fastapi = "==0.103.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

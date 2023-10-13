@@ -13,8 +13,8 @@ for model_id in PRELOADED_MODELS:
 app = FastAPI()
 
 @app.get('/')
-def hello():
-    return 'hello, world!'
+def title():
+    return 'Machine Learning Hub Inference API!'
 
 @app.post('/inference/{model_id:path}')
 async def generate_answer(model_id:str, request: Request) -> str:

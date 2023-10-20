@@ -10,6 +10,8 @@ transformers = "==4.33.2"
 sentence-transformers = "==2.2.2"
 uvicorn = "==0.23.2"
 fastapi = "==0.103.1"
+pydantic = "==2.4.2"
+protobuf = "==4.24.4"
 
 [dev-packages]
 
